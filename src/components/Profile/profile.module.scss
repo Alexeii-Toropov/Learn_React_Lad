@@ -1,0 +1,13 @@
+$black: grey;
+
+.profile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+
+    &__img {
+        border-radius: 50%;
+        box-shadow: 0 0 5px $black;
+    }
+}
