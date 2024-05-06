@@ -1,0 +1,36 @@
+* {
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    background-color: beige;
+    max-width: 700px;
+}
+
+.item {
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: 400;
+    grid-column: 1;
+    max-width: 400px;
+}
+
+.itemImportant {
+    grid-column: span 2;
+    grid-row: span 1 / 8;
+    font-size: 20px;
+    font-weight: 700;
+    justify-self: center;
+}
+
+.itemImportant2 {
+    grid-column: 2;
+    grid-row: span 1 / 2 ;
+    justify-self: end;
+    width: 50px;
+    height: 50px;
+}
